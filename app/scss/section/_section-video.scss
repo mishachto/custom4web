@@ -1,0 +1,28 @@
+.section-video {
+  background-color: $color-white-global;
+  padding-bottom: 100px;
+  h2 {
+    color: $color-first;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .video-youtube {
+    width: 100%;
+    height: 550px;
+  }
+}
+@include max-screen(767px) {
+  .section-video {
+    padding-bottom: 30px;
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .video-youtube {
+      width: 100%;
+      height: 350px;
+    }
+  }
+}

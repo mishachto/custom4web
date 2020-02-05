@@ -1,0 +1,45 @@
+.section-whatOn {
+  background-color: $color-white-global;
+  h2 {
+    color: $color-first;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .box-content-whaton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h2 {
+      font-size: 38px;
+      text-transform: uppercase;
+      color: $color-second;
+    }
+    p {
+      color: $color-second;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
+
+@include max-screen(767px) {
+  .section-whatOn {
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .box-content-whaton {
+      h2 {
+        font-size: 28px;
+        margin: 15px 0;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

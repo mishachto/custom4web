@@ -1,0 +1,13 @@
+.input-default {
+  border: 1px solid rgba($color: $color-second, $alpha: 0.6);
+  text-transform: uppercase;
+  line-height: 30px;
+  max-width: 115px;
+  color: $color-first;
+  font-size: 18px;
+  padding: 0 5px;
+  &::placeholder {
+    color: $color-second;
+    text-align: center;
+  }
+}
